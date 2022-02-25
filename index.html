@@ -235,7 +235,7 @@
               </p>
               <br>
               <p>
-              Prior to joining UPC I did my masters and undergraduate in Computer Science in China at <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a>. During my masters, I did internships at <a href="https://www.huawei.com/en/corporate-information/research-development">Huawei</a> and <a href="https://online.iwhalecloud.com/">WhaleCloud</a> as an Artificial Intelligence (AI) Engineer. While at UESTC, I have received several awards including <a href="Awards/chinese_government_award_2021.pdf">China Government Outstanding International Masters Student Award</a>, <a href="Awards/uestc_outstanding_masters_stud_award_2021.pdf">UESTC Outstanding Masters Student Award</a>, and <a href="Awards/uestc_undergraduate_outstanding_stud_award.pdf">UESTC Outstanding Undergraduate Student Award</a>.
+              Prior to joining UPC, I did my masters and undergraduate in Computer Science in China at <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a>. During my masters, I did internships at <a href="https://www.huawei.com/en/corporate-information/research-development">Huawei</a> and <a href="https://online.iwhalecloud.com/">WhaleCloud</a> as an Artificial Intelligence (AI) Engineer. While at UESTC, I have received several awards including <a href="Awards/chinese_government_award_2021.pdf">China Government Outstanding International Masters Student Award</a>, <a href="Awards/uestc_outstanding_masters_stud_award_2021.pdf">UESTC Outstanding Masters Student Award</a>, and <a href="Awards/uestc_undergraduate_outstanding_stud_award.pdf">UESTC Outstanding Undergraduate Student Award</a>.
               </p>
               <br>
               <p style="text-align:center">
@@ -259,15 +259,16 @@
         <td width="100%" valign="middle">
           <heading>News</heading>
           <ul style="list-style-type:circle">
+            <li class="some_list"> Feb 2022: Our paper titled "KinyaBERT: a Morphology-aware Kinyarwanda Language Model" accepted at <a href="https://www.2022.aclweb.org/">ACL 2022</a>.</li>
             <li class="some_list"> Nov 2021: Started reviewing for <a href="https://iclr.cc/">ICLR 2022</a>.</li>
             <li class="some_list">Oct 2021: Starting a Research Assistant position in Computer Science departemet at <a href="https://www.upc.edu/en">UPC</a></li>
             <li class="some_list"> Jul 2021: Starting a Research and Development Internship at <a href="https://www.huawei.com/en/corporate-information/research-development">Huawei</a></li>
             <li class="some_list"> Jul 2021: Received a master's degree from <a href="https://en.uestc.edu.cn/">UESTC</a></li>
             <li class="some_list"> Feb 2021: Received <a href="Awards/chinese_government_award_2021.pdf">China Government Outstanding International Masters Student Award</a>.</li>
             <li class="some_list"> Dec 2020: Received <a href="Awards/uestc_outstanding_masters_stud_award_2021.pdf">UESTC Outstanding Masters Student Award</a>.</li>
-            <li class="some_list">Paper accepted at <a href="https://coling2020.org/">COLING 2020</a> titled "KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi".</li>
-            <li class="some_list">Paper accepted at <a href="https://2020.emnlp.org/">EMNLP-Findings 2020</a> titled "Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages".</li>
-            <li class="some_list">Paper accepted at <a href="https://www.hrm-bildung.de/flins2020/">FLINS 2020</a> titled "Weakly-supervised Character-level Convolutional Neural Networks for Text Classification".</li>
+            <li class="some_list">Our paper titled "KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi". accepted at <a href="https://coling2020.org/">COLING 2020</a> </li>
+            <li class="some_list"> Our paper titled "Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages" accepted at <a href="https://2020.emnlp.org/">EMNLP-Findings 2020</a> .</li>
+            <li class="some_list">Our paper titled "Weakly-supervised Character-level Convolutional Neural Networks for Text Classification" accepted at <a href="https://www.hrm-bildung.de/flins2020/">FLINS 2020</a>.</li>
             <li class="some_list">Awarded China Government Full Scholarship for Masters.</li>
             <li class="some_list">Awarded 2018 UESTC Outstanding Student Award.</li>
           </ul>         
@@ -298,7 +299,7 @@
       </table>
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="25">
-      <!-- <tr>
+      <tr>
         <td width="25%">
           <img src='Images/kinyabert.JPG' width="280" height="250">
         </td>
@@ -310,18 +311,13 @@
             <br>
             <a href="https://www.linkedin.com/antoine-nzeyimana-23b302112">Antoine Nzeyimana</a>,
             <strong>Rubungo Andre Niyongabo</strong>
+            <br>Accepted at ACL 2022</em>
             <br>
-            <em> Under review</em>
-            <br>
-            <a href="https://doi.org/10.1162/tacl_a_00416">Paper</a>
-            /
-            <a href="https://gem-benchmark.com/">Video</a>
-            / 
-            <a href="https://gem-benchmark.com/team">Poster</a>
+            <a href="https://openreview.net/forum?id=AunN5vQYjsB">Paper</a>
           </p>
-          <p>GEM is a benchmark environment for Natural Language Generation with a focus on its Evaluation, both through human annotations and automated Metrics. It aims to measure NLG progress across many NLG tasks across languages, audit data and models and present results via data cards and model robustness reports, and develop standards for evaluation of generated text using both automated and human metrics.</p>
+          <p>Pre-trained language models such as BERT have been successful at tackling many natural language processing tasks. However, the unsupervised sub-word tokenization methods commonly used in these models (e.g., byte-pair encoding - BPE) are sub-optimal at handling morphologically rich languages. Even given a morphological analyzer, naive sequencing of morphemes into a standard BERT architecture is inefficient at capturing morphological compositionality and expressing word-relative syntactic regularities. We address these challenges by proposing a simple two-tier BERT architecture that leverages a morphological analyzer and explicitly represents morphological compositionality. Despite the success of BERT, most of its evaluations have been conducted on high-resource languages, obscuring its applicability on low-resource languages. We evaluate our proposed method on the low-resource morphologically rich Kinyarwanda language, naming the proposed model architecture KinyaBERT. A robust set of experimental results reveal that KinyaBERT outperforms solid baselines by 2% F1 score on a named entity recognition task and by 4.3% average score of a machine-translated GLUE benchmark. KinyaBERT fine-tuning has better convergence and achieves more robust results on multiple tasks even in the presence of translation noise.</p>
         </td>
-      </tr> -->
+      </tr>
       <tr>
         <td width="25%">
           <img src='Images/gem_1.JPG' width="280" height="250">
@@ -504,7 +500,7 @@
             <br>
             <a href="">Francisca A. Acheampong</a>,
             <a href="">Henry Nunoo-Mensah</a>,
-            <a href="">Wenyu Chen</a>
+            <a href="">Wenyu Chen</a>,
             <strong>Rubungo Andre Niyongabo</strong>
             <br>
             <em> In 2020 17th International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP) (pp. 62-66). IEEE.</em>
