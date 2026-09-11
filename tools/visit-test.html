@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Visitor Notification Test</title>
+  <link rel="stylesheet" href="../stylesheet.css">
+  <link rel="stylesheet" href="../publications.css">
+  <link rel="stylesheet" href="../assets/analytics.css">
+  <script defer src="../assets/analytics-config.js"></script>
+  <script defer src="../assets/visit-analytics.js"></script>
+  <script defer src="session-test.js"></script>
+</head>
+<body>
+  <main class="publications-page analytics-controls">
+    <h1>Session Notification Test</h1>
+    <p>After deploying the Apps Script, run <code>enableSessionTests</code> in its editor and paste the temporary token below. This sends a test email to the configured owner and keeps test traffic out of the daily summary.</p>
+    <p>The test looks up your approximate city, region, and country using IPWhois. It does not request GPS access or store your IP address in the analytics app. Clicking the test button explicitly runs this diagnostic even if automatic analytics is opted out.</p>
+    <label for="test-token">Temporary test token</label>
+    <input id="test-token" type="password" autocomplete="off" spellcheck="false">
+    <div>
+      <button id="send-test" type="button">Send session test</button>
+      <button id="reset-test" type="button">Start a new test session</button>
+    </div>
+    <p id="test-status" role="status" aria-live="polite">No test sent. Maximum three test emails per day.</p>
+    <p><a href="../index.html">Back to website</a></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visitor Statistics and Privacy | Andre Niyongabo Rubungo</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="navigation.css">
+  <link rel="stylesheet" href="publications.css">
+  <link rel="stylesheet" href="assets/analytics.css">
+  <script defer src="assets/privacy-controls.js"></script>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">About</a>
+    <a href="publications.html">Publications</a>
+    <a href="awards.html">Awards</a>
+    <a href="reviewing.html">Professional Service</a>
+    <a href="talks.html">Talks</a>
+  </nav>
+  <main class="publications-page analytics-controls">
+    <h1>Visitor Statistics and Privacy</h1>
+    <p>When enabled, visitor statistics help me understand which research pages people read. I receive a daily email with page-load counts, browser-session counts, referrer domains, and approximate cities, regions, and countries.</p>
+    <p>Your browser requests an approximate location from <a href="https://ipwhois.io/privacy">IPWhois</a>, which receives your IP address to perform the lookup. This site does not request GPS access. VPNs and network routing can make location estimates inaccurate.</p>
+    <p>The browser sends the page path, referrer domain, approximate location, and random session and event identifiers to Google Apps Script. The app stores these in a private Google Sheet for about 30 days; emailed summaries may be retained longer. It does not store IP addresses, precise coordinates, full referrer URLs, search queries, or visitor names and email addresses. Google, GitHub, and the location provider may process connection information under their own policies.</p>
+    <p>Session information uses browser session storage, reset after a 30-minute gap between page loads. These counts represent sessions, not distinct people. This privacy page is not tracked. Global Privacy Control and Do Not Track signals are respected.</p>
+    <p>You can turn off these statistics for this browser. Your preference is saved in local storage and does not remove past records.</p>
+    <button id="disable-analytics" type="button">Turn off visitor statistics</button>
+    <button id="enable-analytics" type="button">Allow visitor statistics</button>
+    <p id="privacy-status" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
