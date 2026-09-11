@@ -1,615 +1,90 @@
-<!-- Page adopted from https://github.com/adjidieng/adjidieng.github.io and https://github.com/jonbarron/website -->
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-  <meta name=viewport content=“width=800”>
-  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <style type="text/css">
-    a {
-      color: #1772d0;
-      text-decoration:none;
-    }
-
-    em {
-      color: #1772d0;
-    }
-
-    a:focus, a:hover {
-    color: #f09228;
-    text-decoration:none;
-    }
-
-    td,th,tr,p,a {
-      font-family:  'Titillium Web', Verdana, Helvetica, sans-serif;
-      font-size: 17px;
-      font-weight: 300;
-    }
-
-    body { 
-    	margin:5px 0; 
-    	padding:0; 
-    	font-size: 100%;
-    	font-family: "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif; 
-    	color:#FFF;  
-    	background-color:#eee;
-    	line-height: 1.4em; 
-    	/*background : #E4E4E4 url(bg.gif) repeat-x;*/
-     	/*background: #E4E4E4 url(bg_light.gif) repeat-x; */
-    	background: #FFFFFF url(bc-website-color.gif) repeat-x;
-    }
-    p { 
-    	margin: 0 0 5px 0; 
-    	padding: 0; 
-    	color: #404241; 
-    	background: inherit;
-    	font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-      font-size: 95%;
-      font-weight: 400;
-    }
-
-    hr {
-      border: 0;
-      height: 1px;
-      color: #eee;
-      background-color: #eee;
-    }
-
-    a { 
-    	background: inherit; 
-    	text-decoration:none;
-    	font-size:95%;
-      color: #191970;
-
-    }
-
-    a:hover { 
-    	background: inherit;
-    	text-decoration: none;
-
-    }
-
-    h1 { 
-    	padding:0; 
-    	margin:0; 
-    	color: #434A55; 
-    	background: inherit;
-    	font-family: serif; 
-    	/*font-size: 22px;*/
-    	/*letter-spacing: 0px;*/
-    }
-
-    h1 a {
-    	color: #191970; 
-    	background: inherit;
-    }
-
-    h2 { 
-    	background-color: inherit; 
-    	color:#191970; 
-    	margin: 10px 20px 10px 0px; 
-    	padding:15px 0px 0 0px; 
-    	font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-      font-size: 18px;
-      font-weight: 500;
-
-    }
-
-    h2 a { 
-    	/*background-color:#08152E;*/ 
-    	/*background-color:#E4E4E4;*/
-    	background-color:#FFFFFF;
-    }
-
-    ul { 	margin: 0 0 20px 0; 
-    	padding : 0; 
-    	list-style : none; 
-      color: #555;
-    }
-    	
-    li { 
-    	float: left;
-    	font-weight: bold;
-    	margin: 10px 0 8px 0;
-    	padding: 0 0 0 5px;
-    	font-size: 95%%;
-    	font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    	font-weight: 400;
-      color: #404241;
-      width: 100%;
-
-    }
-
-    li a { 
-      font-size: 95%;
-      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-      font-weight: 400;
-      color: #191970; }
-    li a:hover {text-decoration: none; 
-      background: inherit url(select.gif) no-repeat center top;padding: 2px 4px;
-    	background-position: 100% 100%;
-      color: #DBBC58;
-      padding: 4px 8px; 
-      background-color:#191970; 
-      border-radius: 25px;
-      display: run-in;
-    }
-
-    strong {
-      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-      font-size: 15px;
-      color: #191970;
-    }
-
-    heading {
-      font-family:  'Titillium Web', Verdana, Helvetica, sans-serif;
-      font-size: 23px;
-      color: #191970;
-    }
-
-    papertitle {
-      font-family:  'Titillium Web', Verdana, Helvetica, sans-serif;
-      font-size: 17px;
-      font-weight: 700
-    }
-
-    name {
-      font-family:  "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif; 
-      font-size: 35px;
-      font-weight: bold;
-    }
-    
-    span.highlight {
-      background-color: #ffffd0;
-    }
-
-    .some_list { 
-    	font-size: 93%;
-    	font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    	font-weight: 400;
-    	/*float: none;*/
-    	list-style-type: circle;
-    	padding : 0px; 
-    	margin: 0 0 10px 30px; 
-      }
-  </style>
-  <link rel="stylesheet" type="text/css" href="./stylesheet.css">
-  <link rel="icon" type="image/png" href="Images/profile_pic.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Andre Niyongabo Rubungo is a Princeton Computer Science PhD student researching large language models and AI for Science, with a focus on scientific discovery.">
   <title>Andre Niyongabo Rubungo</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
-  <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900,100italic,100,300,300italic,400italic,500italic,900italic,700italic' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-  <table width="70%" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tr>
-    <td>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td>
-          <p>
-            <name>Andre Niyongabo Rubungo</name>
-          </p>
-        </td>
-      </tr>
-      </table>
+  <link rel="icon" type="image/png" href="Images/profile_pic.png">
+  <link rel="stylesheet" href="./stylesheet.css">
+  <link rel="stylesheet" href="./navigation.css">
+  <link rel="stylesheet" href="./publications.css">
+  <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html" aria-current="page">About</a>
+    <a href="publications.html">Publications</a>
+    <a href="awards.html">Awards</a>
+    <a href="reviewing.html">Professional Service</a>
+    <a href="talks.html">Talks</a>
+  </nav>
+  <main class="publications-page home-page">
+    <header class="profile">
+      <div class="profile-intro">
+        <h1>Andre Niyongabo Rubungo</h1>
+        <p>I am a PhD student in Computer Science at <a href="https://www.princeton.edu/">Princeton University</a>, advised by Adji Bousso Dieng. My research interests are <strong>large language models</strong> and <strong>AI for Science</strong>, with a focus on leveraging large language models for scientific discovery.</p>
+        <p>My research internships at IBM Research span LLM post-training (2025) and agentic coding models (2026). Previously, I worked on low-resource machine translation at UPC and interned with Meta AI’s NLLB team. I earned my bachelor’s and master’s degrees in Computer Science at UESTC.</p>
+        <p class="profile-links">
+          <a href="mailto:rn3004@princeton.edu">Email</a>
+          <a href="CV/CV_Andre_update_final.pdf">CV</a>
+          <a href="https://scholar.google.com/citations?user=5qnTWQEAAAAJ&amp;hl=en">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/andre-niyongabo-rubungo-851370168/">LinkedIn</a>
+          <a href="https://github.com/Andrews2017">GitHub</a>
+          <a href="https://twitter.com/andre_niyongabo">X</a>
+        </p>
+      </div>
+      <img class="profile-photo" src="Images/profile_pic_circula.png" alt="Portrait of Andre Niyongabo Rubungo" width="200" height="200">
+    </header>
 
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-              </p>
-              <p>PhD student at Princeton University</p>
-              <br> 
-              <p> I am interested in <strong> Artificial Intelligence</strong>, with a focus on <strong>Multitask</strong> and <strong>Multimodal Learning</strong>. I aim to leverage Natural Language Processing and Machine Learning to solve challenging problems in the Sciences. 
-              </p>
-              <br>
-              <p>
-              Previously was at <a href="https://www.upc.edu/en">Polytechnic University of Catalonia, Barcelona Tech (UPC)</a> jointly working with <a href="https://costa-jussa.com/">Prof. Marta R. Costa-jussà</a>
-              and <a href="https://www.talp.upc.edu/staff-detail-page-2/61/Carlos-Escolano%20Peinado">Carlos Escolano</a> on <a href="https://lunar.cs.upc.edu/">LUNAR</a> project to improve Neural Machine Translation for Extremely Low Resource Language. During my time at UPC, I was fortunate to do a research internship at Meta AI with the <a href="https://ai.facebook.com/research/no-language-left-behind/">NLLB team</a> (New York office) under the supervision of <a href="https://ai.facebook.com/people/angela-fan/">Angela Fan</a>. I did my Master and Undergraduate in Computer Science in China at <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a>. During my Master, I did internships at <a href="https://www.huawei.com/en/corporate-information/research-development">Huawei</a> and <a href="https://online.iwhalecloud.com/">WhaleCloud</a> as an Artificial Intelligence (AI) Engineer. While at UESTC, I have received several awards including <a href="Awards/chinese_government_award_2021.pdf">China Government Outstanding International Master Student Award</a>, <a href="Awards/uestc_outstanding_Master_stud_award_2021.pdf">UESTC Outstanding Master Student Award</a>, and <a href="Awards/uestc_undergraduate_outstanding_stud_award.pdf">UESTC Outstanding Undergraduate Student Award</a>.
-              </p>
-              <br>
-              <p style="text-align:center">
-                <a href="CV/CV_Andre_updated_final.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=5qnTWQEAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/rubungo-andre-niyongabo-851370168/"> LinkedIn </a> &nbsp/&nbsp
-                <a href="https://github.com/Andrews2017">Github</a> &nbsp/&nbsp
-                <a href="https://twitter.com/andre_niyongabo">Twitter</a>  &nbsp/&nbsp
-                <a> Email:</a>  rn3004 at princeton dot edu 
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="Images/profile_pic_circula.png"><img style="width:100%;max-width:100%" alt="profile photo" src="Images/profile_pic_circula.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
- 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="100%" valign="middle">
-          <heading>News</heading>
-          <ul style="list-style-type:circle">
-            <li class="some_list"> May 2022: Our paper titled "KinyaBERT: a Morphology-aware Kinyarwanda Language Model" won the <a href="https://www.2022.aclweb.org/best-paper-awards">Best Linguistic Insight Paper Award</a> at ACL 2022</a>.</li>
-            <li class="some_list"> May 2022: Started a research internship at <a href="https://ai.facebook.com/">Meta AI</a>.</li>
-            <li class="some_list"> April 2022: Invited reviewer for <a href="https://eamt2022.com/">EAMT 2022</a> conference.</li>
-            <li class="some_list"> April 2022: Our paper titled "A Few Thousand Translations Go a Long Way! Leveraging Pre-trained Models for African News Translation" accepted at NAACL 2022</a>.</li>
-            <li class="some_list"> Feb 2022: Our paper titled "KinyaBERT: a Morphology-aware Kinyarwanda Language Model" has been accepted at <a href="https://www.2022.aclweb.org/">ACL 2022 main conference</a>.</li>
-            <li class="some_list">Oct 2021: Starting a Research Assistant position in Computer Science departemet at <a href="https://www.upc.edu/en">UPC</a></li>
-            <li class="some_list"> Nov 2021: Reviewer for <a href="https://iclr.cc/">ICLR 2022</a>.</li>
-            <li class="some_list"> Jul 2021: Starting a Research and Development Internship at <a href="https://www.huawei.com/en/corporate-information/research-development">Huawei</a>.</li>
-            <li class="some_list"> Jul 2021: Received a master's degree from <a href="https://en.uestc.edu.cn/">UESTC</a></li>
-            <li class="some_list"> Feb 2021: Received <a href="Awards/chinese_government_award_2021.pdf">China Government Outstanding International Master Student Award</a>.</li>
-            <li class="some_list"> Dec 2020: Received <a href="Awards/uestc_outstanding_Master_stud_award_2021.pdf">UESTC Outstanding Master Student Award</a>.</li>
-            <li class="some_list">Oct 2020: Our paper titled "KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi" has been accepted at <a href="https://coling2020.org/">COLING 2020</a> </li>
-            <li class="some_list"> Sep 2020: Our paper titled "Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages" has been accepted at <a href="https://2020.emnlp.org/">EMNLP-Findings 2020</a> .</li>
-            <li class="some_list">Feb 2020: Our paper titled "Weakly-supervised Character-level Convolutional Neural Networks for Text Classification" accepted been at <a href="https://www.hrm-bildung.de/flins2020/">FLINS 2020</a>.</li>
-            <li class="some_list">Sep 2019: Awarded China Government Full Scholarship for Master.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</li>
-            <li class="some_list">Awarded 2018 UESTC Outstanding Student Award.</li>
-          </ul>         
-        </td>
-      </tr>
-      </table>
+    <section aria-labelledby="research">
+      <h2 id="research">Research</h2>
+      <p>My work connects three themes:</p>
+      <ul class="research-themes">
+        <li><strong>Language models for materials discovery.</strong> Developing representations and models to predict crystal properties and metal–organic framework free energies (<a href="#llm-prop">LLM-Prop</a>, <a href="#mof-free-energy">MOF free energy prediction</a>).</li>
+        <li><strong>Evaluating scientific prediction.</strong> Building benchmarks and testing how well models generalize to materials beyond their training data (<a href="#llm4mat-bench">LLM4Mat-Bench</a>, <a href="#ood-materials">out-of-distribution generalization</a>).</li>
+        <li><strong>Language modeling and retrieval for low-resource languages.</strong> Using linguistic structure to improve language representations and retrieval-augmented generation (<a href="#kinyabert">KinyaBERT</a>, <a href="#kinyacolbert">KinyaColBERT</a>).</li>
+      </ul>
+    </section>
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="100%" valign="middle">
-          <heading>Research</heading>
-          <p>My research in natural language processing during my Master spans several topics. I have worked on machine translation, language modeling, text classification, summarization, sentiment analysis, common sense reasoning, named-entity recognition, and dataset creation and curation for low-resourced African languages. 
-          </p>
-        </td>
-      </tr>
-      </table>
+    <section aria-labelledby="selected-publications">
+      <h2 id="selected-publications">Selected Publications and Preprints</h2>
+      <p>See <a href="publications.html">all publications</a> for the full list.</p>
+      <ul class="publication-list">
+        <li id="mof-free-energy">
+          <h3>Highly Accurate and Fast Prediction of MOF Free Energy Via Machine Learning</h3>
+          <p class="publication-authors"><strong>A. Niyongabo Rubungo</strong>*, F. Fajardo-Rojas*, D. Gómez-Gualdrón, A. B. Dieng</p>
+          <p class="publication-venue"><em>Journal of the American Chemical Society (JACS), 2025</em> <a href="https://pubs.acs.org/doi/full/10.1021/jacs.5c13960">[Paper]</a> <a href="https://github.com/vertaix/MOF-FreeEnergy">[Code]</a></p>
+        </li>
+        <li id="llm-prop">
+          <h3>LLM-Prop: predicting the properties of crystalline materials using large language models</h3>
+          <p class="publication-authors"><strong>A. Niyongabo Rubungo</strong>, C. Arnold, B. P. Rand, A. B. Dieng</p>
+          <p class="publication-venue"><em>npj Computational Materials, 2025</em> <a href="https://www.nature.com/articles/s41524-025-01536-2">[Paper]</a> <a href="https://github.com/vertaix/LLM-Prop">[Code]</a></p>
+        </li>
+        <li id="llm4mat-bench">
+          <h3>LLM4Mat-Bench: Benchmarking Large Language Models for Materials Property Prediction</h3>
+          <p class="publication-authors"><strong>A. Niyongabo Rubungo</strong>, K. Li, J. Hattrick-Simpers, A. B. Dieng</p>
+          <p class="publication-venue"><em>Machine Learning: Science and Technology, 2024</em> <a href="https://iopscience.iop.org/article/10.1088/2632-2153/add3bb">[Paper]</a> <a href="https://github.com/vertaix/LLM4Mat-Bench">[Code]</a></p>
+        </li>
+        <li id="ood-materials">
+          <h3>Probing Out-of-distribution Generalization in Machine Learning for Materials</h3>
+          <p class="publication-authors">K. Li, <strong>A. Niyongabo Rubungo</strong>, X. Lei, D. Persaud, K. Choudhary, B. DeCost, A. B. Dieng, J. Hattrick-Simpers</p>
+          <p class="publication-venue"><em>Communications Materials, 2025</em> <a href="https://www.nature.com/articles/s43246-024-00731-w">[Paper]</a> <a href="https://github.com/mathsphy/probing-ood">[Code]</a></p>
+        </li>
+        <li id="kinyacolbert">
+          <h3>KinyaColBERT: A Lexically Grounded Retrieval Model for Low-Resource Retrieval-Augmented Generation</h3>
+          <p class="publication-authors">A. Nzeyimana, <strong>A. Niyongabo Rubungo</strong></p>
+          <p class="publication-venue"><em>arXiv preprint, 2025 (under review)</em> <a href="https://arxiv.org/abs/2507.03241">[arXiv]</a> <a href="https://github.com/c4ir-rw/ac-ai-models/tree/main/DeepKIN-AgAI">[Code]</a></p>
+        </li>
+        <li id="kinyabert">
+          <h3>KinyaBERT: A Morphology-aware Kinyarwanda Language Model</h3>
+          <p class="publication-authors">A. Nzeyimana, <strong>A. Niyongabo Rubungo</strong></p>
+          <p class="publication-venue"><em>ACL 2022</em> <a href="https://aclanthology.org/2022.acl-long.367">[Paper]</a> <a href="https://github.com/anzeyimana/kinyabert-acl2022">[Code]</a></p>
+        </li>
+      </ul>
+    </section>
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="25">
-
-      <tr>
-        <td width="25%">
-          <img src='Images/occgen.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://openreview.net/pdf/ae270022e1f7523978bb7c46ec1706689f38ea38.pdf">
-              <papertitle>OccGen: Selection of Real-world Multilingual Parallel Data Balanced in Gender within Occupations </papertitle>
-            </a>
-            <br>
-            <a href="https://costa-jussa.com/">Marta R. Costa-jussà</a>, Christine Basta, Oriol Domingo, 
-            <strong>Andre Niyongabo Rubungo</strong>
-            <br>
-            <em>In the proceedings of the 36th Conference on Neural Information Processing Systems (NeurIPS 2022) Track on Datasets and Benchmarks</em>
-            <br>
-            <a href="https://openreview.net/forum?id=tTPVefaATp6">Paper</a>/
-            <a href="https://github.com/mt-upc/OccGen_dataset">Dataset</a>
-          </p>
-          <p>This paper describes the OCCGEN toolkit, which allows extracting multilingual
-          parallel data balanced in gender within occupations. OCCGEN can extract datasets
-          that reflect gender diversity (beyond binary) more fairly in society to be further
-          used to explicitly mitigate occupational gender stereotypes. We propose two use
-          cases that extract evaluation datasets for machine translation in four high-resource
-          languages from different linguistic families and in a low-resource African language.
-          Our analysis of these use cases shows that translation outputs in high-resource
-          languages tend to worsen in feminine subsets (compared to masculine), specially in
-          the directions containing English. This is confirmed by the human evaluation. We
-          hypothesize that a sound language generation may contribute to pay less attention
-          to the source sentence and to overgeneralize to the most frequent gender forms.</p>
-        </td>
-      </tr>
-
-      <tr>
-        <td width="25%">
-          <img src='Images/mafand.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://openreview.net/pdf/ae270022e1f7523978bb7c46ec1706689f38ea38.pdf">
-              <papertitle>A Few Thousand Translations Go a Long Way! Leveraging Pre-trained Models for African News Translation</papertitle>
-            </a>
-            <br>
-            <a href="https://dadelani.github.io/">David I. Adelani</a>, Jesujoba O. Alabi, Angela Fan, et al. including
-            <strong>Andre Niyongabo Rubungo</strong>
-            <br>
-            <em>Accepted at NAACL 2022</em>
-            <br>
-            <a href="https://openreview.net/pdf/ae270022e1f7523978bb7c46ec1706689f38ea38.pdf">Paper</a>/
-            <a href="https://github.com/masakhane-io/lafand-mt">Code</a>
-          </p>
-          <p>Recent advances in the pre-training of language models leverage large-scale datasets to create multilingual models. However, low-resource languages are mostly left out in these datasets. This is primarily because many widely spoken languages are not well represented on the web and therefore excluded from the large-scale crawls used to create datasets. Furthermore, downstream users of these models are restricted to the selection of languages originally chosen for pre-training. This work investigates how to optimally leverage existing pre-trained models to create low-resource translation systems for 16 African languages. We focus on two questions: 1) How can pre-trained models be used for languages not included in the initial pre-training? and 2) How can the resulting translation models effectively transfer to new domains? To answer these questions, we create a new African news corpus covering 16 languages, of which eight languages are not part of any existing evaluation dataset. We demonstrate that the most effective strategy for transferring both to additional languages and to additional domains is to fine-tune large pre-trained models on small quantities of high-quality translation data.</p>
-        </td>
-      </tr>
-
-      <tr>
-        <td width="25%">
-          <img src='Images/kinyabert.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://aclanthology.org/2022.acl-long.367">
-              <papertitle>KinyaBERT: A Morphology-aware Kinyarwanda Language Model</papertitle>
-            </a>
-            <br>
-            <a href="https://www.linkedin.com/antoine-nzeyimana-23b302112">Antoine Nzeyimana</a>,
-            <strong>Andre Niyongabo Rubungo</strong>
-            <br>
-            <em>In the Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)</em> | 
-            <strong><a href="https://www.2022.aclweb.org/best-paper-awards">Best Linguistic Insight Paper Award</a></strong>
-            <br>
-            <a href="https://aclanthology.org/2022.acl-long.367">Paper</a>/
-            <a href="https://github.com/anzeyimana/kinyabert-acl2022">Code</a>
-          </p>
-          <p>Pre-trained language models such as BERT have been successful at tackling many natural language processing tasks. However, the unsupervised sub-word tokenization methods commonly used in these models (e.g., byte-pair encoding - BPE) are sub-optimal at handling morphologically rich languages. Even given a morphological analyzer, naive sequencing of morphemes into a standard BERT architecture is inefficient at capturing morphological compositionality and expressing word-relative syntactic regularities. We address these challenges by proposing a simple two-tier BERT architecture that leverages a morphological analyzer and explicitly represents morphological compositionality. Despite the success of BERT, most of its evaluations have been conducted on high-resource languages, obscuring its applicability on low-resource languages. We evaluate our proposed method on the low-resource morphologically rich Kinyarwanda language, naming the proposed model architecture KinyaBERT. A robust set of experimental results reveal that KinyaBERT outperforms solid baselines by 2% F1 score on a named entity recognition task and by 4.3% average score of a machine-translated GLUE benchmark. KinyaBERT fine-tuning has better convergence and achieves more robust results on multiple tasks even in the presence of translation noise.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
-          <img src='Images/gem_1.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="Papers/GEM_Benchmark_1.pdf">
-              <papertitle>The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics</papertitle>
-            </a>
-            <br>
-            <a href="https://sebastiangehrmann.com/">Sebastian Gehrmann</a>,
-            <a href="https://scholar.google.com/citations?user=uBZIR8sAAAAJ&hl=en">Tosin Adewumi</a>,
-            <span>et al. including</span>
-            <strong>Rubungo Andre Niyongabo</strong>
-            <br>
-            <em> In the Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)</em>
-            <br>
-            <a href="https://aclanthology.org/2021.gem-1.10/">Paper</a>
-            /
-            <a href="https://gem-benchmark.com/">Website</a>
-            / 
-            <a href="https://gem-benchmark.com/team">Team</a>
-          </p>
-          <p>GEM is a benchmark environment for Natural Language Generation with a focus on its Evaluation, both through human annotations and automated Metrics. It aims to measure NLG progress across many NLG tasks across languages, audit data and models and present results via data cards and model robustness reports, and develop standards for evaluation of generated text using both automated and human metrics.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
-          <img src='Images/mpt.png' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://dl.acm.org/doi/abs/10.1145/3457682.3457759">
-              <papertitle>Multi-Perspective Reasoning Transformers</papertitle>
-            </a>
-            <br>
-            <a href="https://www.linkedin.com/in/dagisky/">Dagmawi Moges</a>,
-            <strong>Rubungo Andre Niyongabo</strong>,
-            <a href="https://en.uestc.edu.cn/info/1074/2124.htm">Hong Qu</a>
-            <br>
-            <em>In 2021 13th International Conference on Machine Learning and Computing (ICMLC 2021)</em>
-            <br>
-            <a href="https://dl.acm.org/doi/abs/10.1145/3457682.3457759">Paper</a>
-          </p>
-          <p>Machine Reading Comprehension is defined as the ability of machines to read and understand unstructured text and answer questions about it. It is considered as a challenging task with wide range of enterprise applications. Wide range of natural language understanding and reasoning tasks are found embedded within machine reading comprehension datasets. This requires effective models with robust relational reasoning capabilities to answer complex questions. Reasoning in natural language is a long-term machine-learning goal and is critically needed for building intelligent agents. However, most papers heavily depend on underlying language modeling and thus pay little to no attention on creating effective reasoning models. This paper proposes a modified transformer architecture that effectively combines soft and hard attention to create multi-perspective reasoning model capable of tackling wide range of reasoning tasks. An attention mechanism that highlights the relational significance of input signals is considered as well. The result from this study shows performance gain as compared to its counterpart the transformer network on bAbI dataset, a natural language reasoning tasks.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
-          <img src='Images/masakhaner.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://doi.org/10.1162/tacl_a_00416">
-              <papertitle>MasakhaNER: Named Entity Recognition for African Languages.</papertitle>
-            </a>
-            <br>
-            <a href="https://dadelani.github.io/">David I. Adelani</a>,
-            <a href="https://www.jabbott.io/">Jade Abbott</a>,
-            <span>et al. including</span>
-            <strong>Rubungo Andre Niyongabo</strong>
-            <br>
-            <em> Transactions of the Association for Computational Linguistics (2021).</em> | 
-            <strong>Best Paper at AfricaNLP Workshp, ACL 2021</strong>
-            <br>
-            <a href="https://doi.org/10.1162/tacl_a_00416">Paper</a>
-            /
-            <a href="https://www.youtube.com/watch?v=h-X6gMz-fjk">Video</a>
-            / 
-            <a href="https://github.com/masakhane-io/masakhane-ner">Code</a>
-          </p>
-          <p>We take a step towards addressing the under- representation of the African continent in NLP research by bringing together different stakeholders to create the first large, publicly available, high-quality dataset for named entity recognition (NER) in ten African languages. We detail the characteristics of these languages to help researchers and practitioners better understand the challenges they pose for NER tasks. We analyze our datasets and conduct an extensive empirical evaluation of state- of-the-art methods across both supervised and transfer learning settings.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
-          <img src='Images/quality_at_glance.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://doi.org/10.1162/tacl_a_00447">
-              <papertitle>Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets.</papertitle>
-            </a>
-            <br>
-            <a href="https://scholar.google.com/citations?user=myh9l2AAAAAJ&hl=en">Isaac Caswel</a>,
-            <a href="https://juliakreutzer.github.io/">Julia Kreutzer</a>,
-            <span>et al. including</span>
-            <strong>Rubungo Andre Niyongabo</strong>
-            <br>
-            <em> Transactions of the Association for Computational Linguistics (2021).</em>
-            <br>
-            <a href="https://doi.org/10.1162/tacl_a_00447">Paper</a>
-<!--             /
-            <a href="">Video</a>
-            / 
-            <a href="">Poster</a> -->
-          </p>
-          <p>With the success of large-scale pre-training and multilingual modeling in Natural Language Processing (NLP), recent years have seen a proliferation of large, Web-mined text datasets covering hundreds of languages. We manually audit the quality of 205 language-specific corpora released with five major public datasets (CCAligned, ParaCrawl, WikiMatrix, OSCAR, mC4). Lower-resource corpora have systematic issues: At least 15 corpora have no usable text, and a significant fraction contains less than 50% sentences of acceptable quality. In addition, many are mislabeled or use nonstandard/ambiguous language codes. We demonstrate that these issues are easy to detect even for non-proficient speakers, and supplement the human audit with automatic analyses. Finally, we recommend techniques to evaluate and improve multilingual corpora and discuss potential risks that come with low-quality data releases.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
-          <img src='Images/kinnews_kirnews.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://www.aclweb.org/anthology/2020.coling-main.480/">
-              <papertitle>KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi</papertitle>
-            </a>
-            <br>
-            <strong>Rubungo Andre Niyongabo</strong>,
-            <a href="https://en.uestc.edu.cn/info/1074/2124.htm">Hong Qu</a>,
-            <a href="https://juliakreutzer.github.io/">Julia Kreutzer</a>,
-            <a href="">Li Huang</a>
-            <br>
-            <em> COLING 2020.</em>
-            <br>
-            <a href="Papers/kinnews_kirnews.pdf">Paper</a>
-            /
-            <a href="https://github.com/Andrews2017/KINNEWS-and-KIRNEWS-Corpus">Code</a>
-          </p>
-          <p>Recent progress in text classification has been focused on high-resource languages such as English and Chinese. For low-resource languages, amongst them most African languages, the lack of well-annotated data and effective preprocessing, is hindering the progress and the transfer of successful methods. In this paper, we introduce two news datasets (KINNEWS and IRNEWS) for multi-class classification of news articles in Kinyarwanda and Kirundi, two low-resource African languages. The two languages are mutually intelligible, but while Kinyarwanda has been studied in Natural Language Processing (NLP) to some extent, this work constitutes the first study on Kirundi. Along with the datasets, we provide statistics, guidelines for preprocessing, and monolingual and cross-lingual baseline models. Our experiments show that training embeddings on the relatively higher-resourced Kinyarwanda yields successful cross-lingual transfer to Kirundi. In addition, the design of the created datasets allows for a wider use in NLP beyond text classification in future studies, such as representation learning, cross-lingual learning with more distant languages, or as base for new annotations for tasks such as parsing, POS tagging, and NER.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
-          <img src='Images/participatory_research.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://www.aclweb.org/anthology/2020.findings-emnlp.195/">
-              <papertitle>Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages</papertitle>
-            </a>
-            <br>
-            <span>∀</span>,
-            <a href="">Wilhelmina Nekoto</a>,
-            <a href="https://www.vima.co.za/">Vukosi Marivate</a>,
-            <span>et al. including</span>
-            <strong>Rubungo Andre Niyongabo</strong>
-            <br>
-            <em> (EMNLP-Findings 2020. ∀:Equal contribution)</em> | <strong>Wikimedia Foundation Research Award of the Year</strong>
-            <br>
-            <a href="https://www.aclweb.org/anthology/2020.findings-emnlp.195">Paper</a>
-            /
-            <a href="https://www.youtube.com/watch?v=Xbc_g_OknqA">Video</a>
-            / 
-            <a href="https://github.com/masakhane-io/masakhane-mt">Code</a>
-          </p>
-          <p>Research in NLP lacks geographic diversity, and the question of how NLP can be scaled to low-resourced languages has not yet been adequately solved. ‘Low-resourced’-ness is a complex problem going beyond data availability and reflects systemic problems in society. In this paper, we focus on the task of Machine Translation (MT), that plays a crucial role for information accessibility and communication worldwide. Despite immense improvements in MT over the past decade, MT is centered around a few high-resourced languages. As MT researchers cannot solve the problem of low-resourcedness alone, we propose participatory research as a means to involve all necessary agents required in the MT development process. We demonstrate the feasibility and scalability of participatory research with a case study on MT for African languages. Its implementation leads to a collection of novel translation datasets, MT benchmarks for over 30 languages, with human evaluations for a third of them, and enables participants without formal training to make a unique scientific contribution.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
-          <img src='Images/weakly_supervised_cnn.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://doi.org/10.1142/9789811223334_0084">
-              <papertitle>Weakly-supervised Character-level Convolutional Neural Networks for Text Classification</papertitle>
-            </a>
-            <br>
-            <a href="">Yongsheng Liu</a>,
-            <a href="https://en.uestc.edu.cn/info/1074/2672.htm">Wenyu Chen</a>,
-            <strong>Rubungo Andre Niyongabo</strong>
-            <a href="https://en.uestc.edu.cn/info/1074/2124.htm">Hong Qu</a>
-            <br>
-            <em> In Proceedings of the 14th International FLINS Conference (FLINS 2020), World Scientific.</em>
-            <br>
-            <a href="https://doi.org/10.1142/9789811223334_0084">Paper</a>
-          </p>
-          <p>Text classification is a fundamental task in Natural Language Processing (NLP). In this paper, we propose a Weakly-Supervised Character-level Convolutional Network (WSCCN) for text classification. Compared to the word-based model, WSCCN extracting information from raw signals. Further, through the combination of global pooling and fully convolutional networks, our model retains semantic position information from stem to stern. Extensive experiments on the most widely-used seven large-scale datasets show that WSCCN could not only achieve state-of-the-art or competitive classification results but show critical parts of the text for classification.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
-          <img src='Images/emotion_bert.JPG' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://ieeexplore.ieee.org/abstract/document/9317523">
-              <papertitle>Recognizing Emotions from Texts using a Bert-Based Approach</papertitle>
-            </a>
-            <br>
-            <a href="https://scholar.google.com/citations?user=tjkFrN4AAAAJ&hl=en">Francisca A. Acheampong</a>,
-            <a href="">Henry Nunoo-Mensah</a>,
-            <a href="https://en.uestc.edu.cn/info/1074/2672.htm">Wenyu Chen</a>,
-            <strong>Rubungo Andre Niyongabo</strong>
-            <br>
-            <em> In 2020 17th International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP) (pp. 62-66). IEEE.</em>
-            <br>
-            <a href="https://ieeexplore.ieee.org/abstract/document/9317523">Paper</a>
-          </p>
-          <p>The popularity of using pre-trained models results from the training ease and superior accuracy achieved in relatively shorter periods. The paper analyses the efficacy of utilizing transformer encoders on the ISEAR dataset for detecting emotions (i.e., anger, disgust, sadness, fear, joy, shame, and guilt). This work proposes a two-stage architecture. The first stage has the Bidirectional Encoder Representations from Transformers (BERT) model, which outputs into the second stage consisting of a Bi-LSTM classifier for predicting their emotion classes accordingly. The results, outperforming that of the state-of-the-art, with a higher weighted average F1 score of 0.73, become the new state-of-the-art in detecting emotions on the ISEAR dataset.</p>
-        </td>
-      </tr>
-      
-      </table>
-
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="25">
-      <tr>
-        <td>
-          <heading>Teaching</heading>
-          /
-          <p> I have been a teaching assistant (TA)/tutor for the following courses/tutorial/workshops at  University of Electronic Science and Technology of China (UESTC).</p>
-        </td>
-      </tr>
-      </table>
-
-      <table width="100%" align="center" border="0" cellpadding="25">
-      <tr>
-        <td width="25%"><img src="Images/uestc_logo.jfif" alt="pacman" width="180" height="180"></td>
-        <td width="75%" valign="right">
-          <p>
-            <papertitle>TA for Graduate Comprehensive Chinese Course - Fall 2020</papertitle>
-            <br><br>
-            <papertitle>TA and co-organizer of the 1st and 2nd UESTC Deep Learning Workshops  - Fall 2018 and Spring 2019</papertitle>
-            <br><br>
-            <papertitle>Tutor for UESTC CS Web Development Tutorial - Fall 2017 and Spring 2018</papertitle>
-            <br>
-          </p>
-        </td>
-      </tr>
-      </table>
-
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="100%" valign="middle">
-          <heading>Leadership</heading>
-          <p> I am fortunate that I have served in the following leadership positions while at UESTC. </p>
-          <ul style="list-style-type:circle">
-            <li class="some_list"> Sep 2020 - Jul 2021: Academic Committee Member of International Student Union (ISU) and Country Representative of Rwandan students.</li>
-            <li class="some_list"> Sep 2017 - Jul 2018: Academic Officer in charge of Undergraduate Students for ISU.</li>
-            <li class="some_list"> Sep 2015 - Jul 2017: Representative of International Students in Chinese and Overseas Student Association (COSA).</li>
-          </ul>         
-        </td>
-      </tr>
-      </table>
-
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="100%" valign="middle">
-          <heading>Awards and Honors</heading>
-          <!-- <p>I am fortunate that I have served in the following positions while at UESTC.</p> -->
-          <ul style="list-style-type:circle">
-            <li class="some_list"> 2022: <a href="https://www.2022.aclweb.org/best-paper-awards">Best Linguistic Insight Paper Award at ACL 2022</a></li>
-            <li class="some_list"> 2021: Best Paper Award at EACL 2021, AfricaNLP Workshop, Wikimedia Foundation Research Award of the Year, and Chinese Government Outstanding International Master Student Award.</li>
-            <li class="some_list"> 2020: UESTC Outstanding Master Student Award and 1st prize of Academic Achievement Award.</li>
-            <li class="some_list"> 2018: UESTC Outstanding Undergraduate Student Award.</li>
-            <li class="some_list"> 2017: 1st prize of Academic Achievement Award and 1st prize of Excellent Performance Award.</li>
-            <li class="some_list"> 2016: 1st prize of Academic Achievement Award. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</li>
-            <li class="some_list"> 2015: 1st prize of Chinese Language Studies Award.</li>
-          </ul>         
-        </td>
-      </tr>
-      </table>
-
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="100%" valign="middle">
-          <heading>Languages</heading>
-          <!-- <p>I am fortunate that I have served in the following positions while at UESTC.</p> -->
-          <ul style="list-style-type:circle">
-            <li class="some_list"> Strong reading, writing, speaking and listening competencies for <strong>English</strong>, <strong>Mandarin Chinese</strong>, and <strong>Kinyarwanda</strong>.</li>
-            <li class="some_list"> Moderate reading, writing, speaking and listening competencies for <strong>French</strong> and <strong>Kirundi</strong>.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</li>
-            <li class="some_list"> Beginner in <strong>Spanish</strong>.</li>
-          </ul>         
-        </td>
-      </tr>
-      </table>
-    </td>
-    </tr>
-  </table>
-  </body>
+    <p class="languages"><strong>Languages:</strong> Kinyarwanda (native); English and Mandarin Chinese (fluent); French and Kirundi (intermediate); Spanish (beginner).</p>
+  </main>
+</body>
 </html>

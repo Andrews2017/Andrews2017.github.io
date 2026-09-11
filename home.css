@@ -1,0 +1,82 @@
+.home-page {
+  line-height: 1.6;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  align-items: start;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.home-page h1 {
+  margin: 0 0 16px;
+  line-height: 1.25;
+}
+
+.profile-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.research-themes {
+  padding-left: 22px;
+  font-size: 16px;
+}
+
+.research-themes li {
+  margin-bottom: 10px;
+  padding-left: 4px;
+}
+
+.home-page .publication-list li {
+  margin-bottom: 18px;
+  scroll-margin-top: 20px;
+}
+
+.home-page .languages {
+  margin: 28px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid #e5e5e5;
+  font-size: 14px;
+  color: #595959;
+}
+
+.home-page .languages strong {
+  font-size: inherit;
+}
+
+@media (max-width: 900px) {
+  .profile {
+    grid-template-columns: minmax(0, 1fr) 150px;
+    gap: 20px;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 640px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-photo {
+    order: -1;
+    width: 120px;
+    height: 120px;
+  }
+}

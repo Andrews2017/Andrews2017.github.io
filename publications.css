@@ -1,0 +1,68 @@
+.publications-page {
+  box-sizing: border-box;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  color: #404241;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+.publications-page h1 {
+  margin: 24px 0;
+  color: #191970;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.publications-page h2 {
+  margin: 28px 0 16px;
+  color: #191970;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.publication-list {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.publication-list li {
+  margin-bottom: 22px;
+  padding-left: 4px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.publication-list h3 {
+  margin: 0;
+  color: #191970;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.publications-page p,
+.publications-page a,
+.publications-page strong {
+  font-size: 16px;
+}
+
+.publication-list p {
+  margin: 2px 0 0;
+}
+
+.publication-award {
+  color: #92520d;
+}
+
+.publications-page a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .publications-page {
+    width: 100%;
+    padding: 0 16px 32px;
+  }
+}

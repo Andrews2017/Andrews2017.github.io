@@ -1,0 +1,42 @@
+.awards-page {
+  box-sizing: border-box;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  color: #404241;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+.awards-page h1 {
+  margin: 24px 0;
+  color: #191970;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.awards-page h2 {
+  margin: 28px 0 16px;
+  color: #191970;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.awards-list {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.awards-list li {
+  margin-bottom: 16px;
+  padding-left: 4px;
+  font-size: 17px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+  .awards-page {
+    width: 100%;
+    padding: 0 16px 32px;
+  }
+}
